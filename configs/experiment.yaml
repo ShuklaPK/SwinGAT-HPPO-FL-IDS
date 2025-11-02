@@ -1,0 +1,34 @@
+```yaml
+seed: 42
+work_dir: ./outputs
+checkpoint_dir: ./checkpoints
+
+# Toggle modules
+use_fl: false
+use_hppo: false
+features: caps_gjo # [all, caps_gjo]
+
+# Training
+batch_size: 64
+epochs: 3
+lr: 1e-3
+weight_decay: 1e-4
+mixed_precision: false
+early_stop_patience: 5
+label_smoothing: 0.05
+use_focal: false
+
+# Model
+model_config: configs/model_swingat.yaml
+
+# Data
+data_config: configs/data_sdniot.yaml
+
+# Caps-GJO
+caps_gjo_config: configs/caps_gjo.yaml
+
+# FL
+fl_config: configs/fl.yaml
+
+# HPPO
+hppo_config: configs/hppo.yaml
