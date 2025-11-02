@@ -1,0 +1,17 @@
+capsule:
+  input_dim: 64
+  hidden_dim: 64
+  num_caps: 8
+  cap_dim: 8
+  routings: 2
+
+optimizer:
+  population: 12
+  iterations: 10
+  w: 0.9
+  c1: 1.2
+  c2: 1.2
+
+selection:
+  k: 32
+  latency_weight: 0.1
