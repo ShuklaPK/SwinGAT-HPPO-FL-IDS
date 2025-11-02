@@ -1,0 +1,9 @@
+gamma: 0.99
+lam: 0.95
+clip_eps: 0.2
+entropy_coef: 0.01
+value_coef: 0.5
+lr: 3e-4
+steps: 64
+minibatches: 2
+epochs: 2
