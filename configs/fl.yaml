@@ -1,0 +1,8 @@
+num_clients: 3
+clients_per_round: 2
+rounds: 2
+local_epochs: 1
+clip_norm: 1.0
+dp_sigma: 0.0   # set > 0.0 to enable DP noise
+secure_aggregation: true
+compression_bits: 8
