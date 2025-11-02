@@ -1,0 +1,9 @@
+data_path: ./datasets/sdniot  # folder of CSVs if available; otherwise synthetic
+cache_dir: ./.cache/sdniot
+val_ratio: 0.1
+test_ratio: 0.1
+standardize: true
+categoricals: ["proto", "service", "state"]
+label: "label"
+window_seconds: 2
+knn_k: 8
