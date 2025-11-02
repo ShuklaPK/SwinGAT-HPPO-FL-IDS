@@ -29,18 +29,7 @@ Experiments conducted on the **Kaggle SDN-IoT dataset** demonstrate 98% detectio
 
 ---
 
-## Repository Structure  
-```
-SwinGAT-HPPO-FL-IDS/
-│
-├── data/                 # Dataset and preprocessing scripts
-├── models/               # Model architectures: SwinGAT, Caps-GJO, HPPO, FL modules
-├── experiments/          # Training logs and evaluation results
-├── utils/                # Utility scripts for data loading, metrics, visualization
-├── notebooks/            # Colab/Jupyter notebooks for demonstration
-├── results/              # Output metrics, confusion matrices, plots
-└── README.md             # Project documentation
-```
+
 
 ---
 
